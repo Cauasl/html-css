@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+    font: normal 1em Arial, sans-serif;
+}
+
+div {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div:hover {
+    background-color: chartreuse;
+    color: black;
+    border-color: aliceblue;
+}

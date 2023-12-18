@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(40, 40, 40);
+            font: normal 18pt Arial;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 770px)" srcset="imagens/imgbolinhas1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imgbolinhas2.png" type="image/png">
+        <img src="imagens/imgbolinhas3.png" alt="">
+    </picture>
+
+    <h1>Colocando musicas no site</h1>
+    <input type="range" name="" id="">
+    <p>Colocando uma musica</p>
+    <!--<audio src="audios/SamSmithLikeICan.mp3" controls></audio>-->
+    <audio controls>
+        <source src="audios/SamSmithLikeICan.mp3" type="audio/mp3">
+    </audio><br>
+    <video controls width="300px">
+        <source src="imagens/videovideo.mp4" type="video/mp4">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=34m0egqMWqTf2ViH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
