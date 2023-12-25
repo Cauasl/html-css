@@ -1,0 +1,22 @@
+header {
+	background-color: black;
+	text-align: center;
+	padding: 50px 5px;
+	color: white;
+	margin: -8px -8px 8px -8px;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+header a:hover {
+	text-decoration: underline;
+}
+header h1, header p {
+	margin: 2px;
+}
+
+article {
+	font-size: 150%;
+}
