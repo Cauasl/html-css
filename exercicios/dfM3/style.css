@@ -40,7 +40,7 @@ header h1, header p {
 
 section {
 	padding: 10vh 0px;
-	line-height: 2em;
+	line-height: 8vw;
 	padding-left: 10px;
 	font-family: var(--fontSriracha);
 }
@@ -53,11 +53,25 @@ section.normal {
 }
 section.imagem {
 	background-color: rgb(29, 29, 29);
+	box-shadow: inset 6px 6px 13px #00000057;
+	background-attachment: fixed;
 }
 section.imagem p {
 	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.342);
-	width: 300px;
+	background-color: #0000009a;
+	color: white;
+	padding: 8px;
+}
+
+section#img1 {
+	background-image: url('imagens/flores.jpg');
+	background-position: left center;
+	background-size: cover;
+}
+section#img2 {
+	background-image: url('imagens/livros.jpg');
+	background-position: center center;
+	background-size: cover;
 }
 
 footer p {
