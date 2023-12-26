@@ -1,3 +1,9 @@
+html, body {
+	font: normal 1em Arial, sans-serif;
+	min-height: 100vh;
+	background-color: darkgray;
+}
+
 header {
 	background-color: black;
 	text-align: center;
@@ -5,18 +11,42 @@ header {
 	color: white;
 	margin: -8px -8px 8px -8px;
 }
-header a {
+header a, footer a {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 }
-header a:hover {
+header a:hover, footer a:hover {
 	text-decoration: underline;
+}
+header h1 {
+	font-variant: small-caps;
 }
 header h1, header p {
 	margin: 2px;
 }
 
-article {
-	font-size: 150%;
+section {
+	padding: 10vh 0px;
+	line-height: 2em;
+	padding-left: 10px;
+}
+section.normal {
+	background-color: white;
+	color: black;
+}
+section.imagem {
+	background-color: rgb(29, 29, 29);
+}
+section.imagem p {
+	background-color: rgba(0, 0, 0, 0.342);
+	width: 300px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+	border-radius: 10px;
 }
