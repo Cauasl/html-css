@@ -1,0 +1,8 @@
+Nova pseudo-classe:
+"nth-child(3n)" faz com que de tantos em tantos números algum estilo seja aplicado.
+Valores: "odd" ou "2n-1" todo número impar tera um certo efeito
+				 "even" todo número par tera um certo efeito.
+				 
+Mesclagem de celula
+<td colspan="2"> O atributo "colspan" faz com que a celula ocupe duas colunas
+<td rowspan="2"> Esse atributo faz com que a celula ocupe duas linhas.
