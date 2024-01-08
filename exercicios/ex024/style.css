@@ -1,0 +1,11 @@
+body {
+	font: normal 1em Arial, sans-serif;
+}
+
+iframe {
+	border: 3px solid black;
+	width: 95vw;
+	height: 200px;
+	display: block;
+	margin: auto;
+}
