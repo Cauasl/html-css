@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h1>Conteúdo Principal</h1>
+	<p>Para impedir que o site principal não seja afetado por um site possivelmente malicioso é bom utilizar o atributo 'sandbox'.</p>
+	<p>Abaixo tem dois iframes, um que pode coletar dados podendo ser malicioso e trazendo problema para o usuário e para quem criou e o outra que evita a coleta de dados podendo evitar de trazer problemas.</p>
+	
+	<h2>Sem 'sandbox'</h2>
+	<iframe src="outraspaginas/sitepossivelmentemalisioso.html" frameborder="1"></iframe>
+	<p>Consegue enviar dados para o site dentro do iframe, causando possíveis problemas.</p>
+	
+	<h2>Com 'sandbox'</h2>
+	<iframe src="outraspaginas/sitepossivelmentemalisioso.html" frameborder="1" sandbox="sandbox" r></iframe>
+	<p>Não consegue enviar ou coletar dados, impedindo possíveis problemas.</p>
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
