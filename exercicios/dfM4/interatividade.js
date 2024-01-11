@@ -6,9 +6,9 @@ let iframe = document.getElementsByTagName('iframe')[0];
 for(var i=0; i < img.length; i++) {
 	(function(val) {
 		img[val].addEventListener("click", function() {
-		let scrl = img[val].src;
-		let dp = srcl.replace(/logo/g, 'tela');
-		alert(`antes: ${srcl}, depois: ${dp}`);
-	})
+			let arq = img[val].src;
+			let outro = arq.replace(/logo/g, 'tela');
+			iframe.setAttribute("src", outro);
+		});
 	}(i));
 }
