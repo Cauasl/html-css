@@ -9,10 +9,15 @@ nav {
 	right: 0px;
 	margin: 5px;
 }
-nav > img {
+nav img {
 	display: inline-block;
 	width: 100%;
 	border-radius: 50%;
+	box-sizing: border-box;
+}
+nav img:hover {
+	border: 3px solid white;
+	transform: translate(-8px, 0px);
 }
 
 section {
