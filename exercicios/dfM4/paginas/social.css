@@ -1,0 +1,25 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+img {
+	width: 100vw;
+}
+
+p {
+	text-align: center;
+	padding: 30px;
+	background-color: red;
+	font-size: 1.2em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

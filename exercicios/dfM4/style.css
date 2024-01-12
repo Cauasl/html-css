@@ -18,6 +18,7 @@ nav img {
 nav img:hover {
 	border: 3px solid white;
 	transform: translate(-8px, 0px);
+	transition: translate .5s;
 }
 
 section {
