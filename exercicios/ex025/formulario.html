@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+    	form {
+    		border: 3px solid black;
+    		padding: 5px;
+    		margin: auto;
+    	}
+    </style>
+</head>
+<body>
+	<h1>Formulários</h1>
+	<p>Todo formulário precisa estar dentro da tag &lt;form&gt;</p>
+	<form action="cadastro.php" autocomplete="off">
+		<p><label for="inome">Nome: </label><input type="text" name="nome" id="inome"></p>
+		<p><label for="isobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="isobrenome"></p>
+		<p><input type="submit" value="Enviar"></p>
+	</form>
+	
+	<h2>Atributos form</h2>
+	<p>O atributo "autocomplete" tem dois valores, e faz com que apareça ou não a sugestão para completar o que você está escrevendo. Off desliga o autocomplete, e On liga o autocomplete.</p>
+	<p>O atributo "action" faz com que quando o botão enviar seja apertado (que é o input submit) envie o formulário para o servidor. No caso seria para um servidor que utiliza php.</p>
+	
+	<h2>Atributos Input</h2>
+	<p>O atributo "name" é mais útil para html e php, e "id" é mais útil para javascript e um pouco para html (No caso para o uso do label).</p>
+	
+	<h2>Input submit</h2>
+	<p>Faz com que envie o formulário.</p>
+</body>
+</html>
