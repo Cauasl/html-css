@@ -13,10 +13,21 @@
     		border: 1px solid black;
     		text-align: center;
     	}
+    	
+    	col:nth-of-type(1) {
+    		background-color: red;
+    	}
+    	col:nth-of-type(2) {
+    		background-color: yellow;
+    	}
     </style>
 </head>
 <body>
 	<table>
+		<colgroup>
+			<col>
+			<col span="2">
+		</colgroup>
 		<tbody>
 			<tr>
 				<td>A</td>
