@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Parte 2</title>
+</head>
+<body>
+	<h1>Mais sobre formulários</h1>
+	<form action="cadastro.php" method="POST" autocomplete="on">
+		<p>
+			<label for="iusu">Usuário: </label>
+			<input type="text" name="usu" id="iusu" required minlenght="3" placeholder="Usuário" autocomplete="username">*
+		</p>
+		<p>
+			<label for="isenha">Senha: </label>
+			<input type="password" name="senha" id="isenha" required minlength="3" maxlength="15" placeholder="Senha" autocomplete="current-password">*
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Resetar">
+		</p>
+	</form>
+	
+	<h2>Atributo</h2>
+	<h3>Required</h3>
+	<p>Esse atributo faz com que seja obrigatório preencher o campo com alguma coisa.</p>
+	
+	<h3>Mínimo e Máximo de letras</h3>
+	<p>Utilizar minlength para o mínimo de letras e maxlength para o máximo de letras.</p>
+	
+	<h3>Tamanho</h3>
+	<p>O atributo size faz ele existir uma quantidade de letras, e mesmo que não caiba, ele vai continuar colocando.</p>
+	
+	<h3>Dica na caixa</h3>
+	<p>O "placeholder" faz com que de uma dica do que colocar na caixa.</p>
+	
+	<h2>Autocomplete</h2>
+	<p>O autocomplete dentro dos inputs facilita que o usuário apenas clique na sujestão para conseguir prosseguir.</p>
+</body>
+</html>
