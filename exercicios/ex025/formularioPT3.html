@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Teste de form</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required minlength="4" placeholder="Nome completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.5">
+        </p>
+        <p><input type="submit" value="Enviar"><input type="reset" value="Resetar"></p>
+    </form>
+
+    <h2>Min e Max</h2>
+    <p>Para input numerico, esses dois atributos servem para colocar um valor minimo e um valor maximo</p>
+
+    <h2>Step</h2>
+    <p>São os passos de quanto ele vai adicionar ou retirar, no caso é de 0.5</p>
+</body>
+</html>
