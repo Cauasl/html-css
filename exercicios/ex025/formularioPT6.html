@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Mais de formularios, agora de cor</h1>
+    <form action="cadastro.php" method="POST">
+        <fieldset>
+            <legend>Nivel de emoção de cada cor</legend>
+            <p>
+                <label for="icor">Selecione uma cor: </label>
+                <input type="color" name="cor" id="icor" value="#E0FF42">
+            </p>
+            <p>
+                <label for="iemo">Nivel de emoção: </label>
+                <input type="range" name="emo" id="iemo">
+            </p>
+        </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
