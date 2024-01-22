@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    <h1>Output</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sei lá</legend>
+            <h2>Form8</h2>
+            <p>
+                <label for="in1">Número 1</label>
+                <input type="number" name="n1" id="in1" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="in2">Número 2</label>
+                <input type="number" name="n2" id="in2" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="isoma">Soma</label>
+                <output id="isoma">0</output>
+            </p>
+            <hr>
+            <h2>Form9</h2>
+            <p>
+                <input type="range" name="val" id="inum" oninput="ival.innerText = Number(inum.value)" value="50">
+                <output id="ival">50</output>
+            </p>
+            <hr>
+            <h2>Form10</h2>
+            <p>
+                <label for="idata">Data de nascimento: </label>
+                <input type="number" name="data" id="idata" oninput="iidade.innerText = calcidade()" minlength="4">
+            </p>
+            <p>
+                <label for="iidade">Sua idade é: </label>
+                <output id="iidade">0</output>
+            </p>
+            
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function calcidade() {
+            let data = Number(idata.value)
+            if(data > 1900) {
+                let atual = new Date().getFullYear();
+                return atual - data;
+            }else {
+                return 0;
+            }
+        }
+    </script>
+</body>
+</html>
