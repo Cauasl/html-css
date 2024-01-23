@@ -1,9 +1,14 @@
 
 
+
 body {
-    background-color: #5252a8;
+	background-image: url('../img/cev-portrait.jpg');
+	background-position: center bottom;
 }
 
+header {
+	background-color: #5252a8;
+}
 header > h1#orie::after {
     content: 'Empé/Deitado';
 }

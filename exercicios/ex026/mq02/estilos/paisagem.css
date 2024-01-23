@@ -1,8 +1,14 @@
 
+
+
 body {
-    background-color: #752525;
+	background-image: url('../img/cev-landscape.jpg');
+	background-position: left bottom;
 }
 
+header {
+	background-color: #752525;
+}
 header > h1#orie::after {
     content: 'Paisagem/Retrato';
 }
