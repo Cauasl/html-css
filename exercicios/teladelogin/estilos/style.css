@@ -28,7 +28,7 @@ i.material-icon {
 section#login {
    background-color: white;
    width: 250ox;
-   height: 500px;
+   height: 520px;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -61,4 +61,49 @@ section#login > div#formulario > h1 {
    text-align: center;
    padding: 10px 0px;
    font-weight: bolder;
+}
+
+form > div.campo {
+   width: 100%;
+   height: 40px;
+   border-radius:  10px;
+   background-color: var(--cor1);
+   margin: 5px 0px;
+}
+form > div.campo > label {
+   display: none;
+}
+
+div#formulario .botao {
+   display: block;
+   width: 90%;
+   margin: 5px auto;
+   height: 35px;
+   text-align: center;
+   border: 2px solid #49a09d;
+   border-radius: 8px;
+   font-size: 1em;
+   outline: 0px solid transparent;
+}
+
+div#formulario .botao:hover {
+   background-color: #429492;
+   color: white;
+}
+
+div#formulario input.botao {
+   background-color: #5bc3bf;
+   color: white;
+   margin-top: 15px;
+}
+
+div#formulario a.botao {
+   background-color: #adf8f6;
+   color: #49a09d;
+   text-decoration: none;
+   padding-top: 5px;
+}
+
+div#formulario a.botao > i {
+   font-size: .8em;
 }
