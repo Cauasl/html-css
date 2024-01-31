@@ -36,6 +36,7 @@ section#login {
    overflow: hidden;
    border-radius: 15px;
    box-shadow: 0px 0px 8px #00000096;
+
    transition: width .3s, height .3s;
    transition-timing-function: ease;
 }
@@ -60,15 +61,4 @@ section#login > div#formulario > h1 {
    text-align: center;
    padding: 10px 0px;
    font-weight: bolder;
-}
-section#login > div#formulario > form > p.dados {
-   background-color: var(--cor1);
-   padding: 3px;
-   border-radius: 10px;
-}
-section#login > div#formulario > form > p.dados > i {
-   font-size: 1.8em;
-}
-section#login > div#formulario > form > p.dados > input.inpfor {
-   height: 30px;
 }
