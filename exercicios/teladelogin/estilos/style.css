@@ -32,13 +32,13 @@ section#login {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
    overflow: hidden;
    border-radius: 15px;
    box-shadow: 0px 0px 8px #00000096;
 
    transition: width .3s, height .3s;
    transition-timing-function: ease;
+   transform: translate(-50%, -50%);
 }
 
 section#login > div#imgfundo {
@@ -73,10 +73,26 @@ form > div.campo {
 form > div.campo > label {
    display: none;
 }
+form > div.campo > i {
+   color: white;
+   font-size: 2em;
+   width: 40px;
+   padding: 5px;
+}
+form > div.campo > input {
+   background-color: var(--cor0);
+   font-size: 1em;
+   width: calc(100% - 48px);
+   height: 85%;
+   border-radius: 8px;
+   padding: 4px;
+   border: 0px;
+   transform: translateY(-11px);
+}
 
 div#formulario .botao {
    display: block;
-   width: 90%;
+   width: 100%;
    margin: 5px auto;
    height: 35px;
    text-align: center;
